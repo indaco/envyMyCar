@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="45">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>sources/actions.h</itemPath>
+      <itemPath>sources/core/Application.h</itemPath>
+      <itemPath>sources/myclient/buildings.h</itemPath>
+      <itemPath>sources/car.h</itemPath>
+      <itemPath>sources/circuit.h</itemPath>
+      <itemPath>sources/myclient/CTestEventHandlerException.h</itemPath>
+      <itemPath>sources/core/EventHandler.h</itemPath>
+      <itemPath>sources/frame.h</itemPath>
+      <itemPath>sources/game_client.h</itemPath>
+      <itemPath>sources/utilities/LogFile.h</itemPath>
+      <itemPath>sources/core/MessageHandler.h</itemPath>
+      <itemPath>sources/messages.h</itemPath>
+      <itemPath>sources/myclient/mycar.h</itemPath>
+      <itemPath>sources/myclient/mycircuit.h</itemPath>
+      <itemPath>sources/utilities/myfunctions.h</itemPath>
+      <itemPath>sources/packaging.h</itemPath>
+      <itemPath>sources/player.h</itemPath>
+      <itemPath>sources/plylib.h</itemPath>
+      <itemPath>sources/process_message.h</itemPath>
+      <itemPath>sources/race.h</itemPath>
+      <itemPath>sources/race_simulation.h</itemPath>
+      <itemPath>sources/myclient/road.h</itemPath>
+      <itemPath>sources/simple_circuit_creator.h</itemPath>
+      <itemPath>sources/myclient/skybox.h</itemPath>
+      <itemPath>sources/street.h</itemPath>
+      <itemPath>sources/myclient/terrain.h</itemPath>
+      <itemPath>sources/myclient/TestEventHandler.h</itemPath>
+      <itemPath>sources/utilities/tga.h</itemPath>
+      <itemPath>sources/myclient/tree.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>sources/actions.cpp</itemPath>
+      <itemPath>sources/core/Application.cpp</itemPath>
+      <itemPath>sources/myclient/buildings.cpp</itemPath>
+      <itemPath>sources/circuit.cpp</itemPath>
+      <itemPath>sources/core/EventHandler.cpp</itemPath>
+      <itemPath>sources/game_client.cpp</itemPath>
+      <itemPath>sources/utilities/LogFile.cpp</itemPath>
+      <itemPath>sources/main_clt.cpp</itemPath>
+      <itemPath>sources/core/MessageHandler.cpp</itemPath>
+      <itemPath>sources/myclient/mycar.cpp</itemPath>
+      <itemPath>sources/myclient/mycircuit.cpp</itemPath>
+      <itemPath>sources/utilities/myfunctions.cpp</itemPath>
+      <itemPath>sources/packaging.cpp</itemPath>
+      <itemPath>sources/plylib.cpp</itemPath>
+      <itemPath>sources/process_message.cpp</itemPath>
+      <itemPath>sources/race_simulation.cpp</itemPath>
+      <itemPath>sources/myclient/road.cpp</itemPath>
+      <itemPath>sources/simple_circuit_creator.cpp</itemPath>
+      <itemPath>sources/myclient/skybox.cpp</itemPath>
+      <itemPath>sources/street.cpp</itemPath>
+      <itemPath>sources/myclient/terrain.cpp</itemPath>
+      <itemPath>sources/myclient/TestEventHandler.cpp</itemPath>
+      <itemPath>sources/utilities/tga.cpp</itemPath>
+      <itemPath>sources/myclient/tree.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceEncoding>UTF-8</sourceEncoding>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <ccCompilerTool>
+          <includeDirectories>
+            <directoryPath>../nvmc/sf</directoryPath>
+            <directoryPath>../nvmc/src/common</directoryPath>
+            <directoryPath>/usr/include/qt4</directoryPath>
+          </includeDirectories>
+          <warningLevel>0</warningLevel>
+        </ccCompilerTool>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+          <commandLine>-lQtCore -lQtNetwork -lGL -lGLU -lGLEW -lglut `sdl-config --libs`</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="sources/actions.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/actions.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/car.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/circuit.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/circuit.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/core/Application.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/core/Application.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/core/EventHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/core/EventHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/core/MessageHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/core/MessageHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/frame.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/game_client.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/game_client.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/main_clt.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/messages.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/CTestEventHandlerException.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/TestEventHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/TestEventHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/buildings.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/buildings.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/mycar.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/mycar.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/mycircuit.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/mycircuit.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/road.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/road.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/skybox.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/skybox.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/terrain.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/terrain.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/tree.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/tree.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/packaging.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/packaging.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/player.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/plylib.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/plylib.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/process_message.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/process_message.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/race.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/race_simulation.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/race_simulation.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/simple_circuit_creator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/simple_circuit_creator.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/street.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/street.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/utilities/LogFile.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/utilities/LogFile.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/utilities/myfunctions.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/utilities/myfunctions.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/utilities/tga.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/utilities/tga.h">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <compileType>
+        <cCompilerTool>
+          <developmentMode>5</developmentMode>
+        </cCompilerTool>
+        <ccCompilerTool>
+          <developmentMode>5</developmentMode>
+        </ccCompilerTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="sources/actions.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/actions.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/car.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/circuit.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/circuit.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/core/Application.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/core/Application.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/core/EventHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/core/EventHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/core/MessageHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/core/MessageHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/frame.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/game_client.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/game_client.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/main_clt.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/messages.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/CTestEventHandlerException.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/TestEventHandler.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/TestEventHandler.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/buildings.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/buildings.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/mycar.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/mycar.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/mycircuit.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/mycircuit.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/road.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/road.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/skybox.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/skybox.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/terrain.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/terrain.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/myclient/tree.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/myclient/tree.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/packaging.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/packaging.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/player.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/plylib.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/plylib.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/process_message.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/process_message.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/race.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/race_simulation.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/race_simulation.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/simple_circuit_creator.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/simple_circuit_creator.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/street.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/street.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/utilities/LogFile.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/utilities/LogFile.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/utilities/myfunctions.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/utilities/myfunctions.h">
+        <itemTool>3</itemTool>
+      </item>
+      <item path="sources/utilities/tga.cpp">
+        <itemTool>1</itemTool>
+      </item>
+      <item path="sources/utilities/tga.h">
+        <itemTool>3</itemTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

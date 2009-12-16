@@ -1,0 +1,85 @@
+Format: 1.4
+
+
+Title: envyMyCar
+SubTitle: A really basic car game client for VCG_Server
+
+Footer: licensed under a GNU GPL v.2 - Mirco Veltri - 2008
+Timestamp: Updated mm/dd/yyyy
+#   m     - One or two digit month.  January is "1"
+#   mm    - Always two digit month.  January is "01"
+#   mon   - Short month word.  January is "Jan"
+#   month - Long month word.  January is "January"
+#   d     - One or two digit day.  1 is "1"
+#   dd    - Always two digit day.  1 is "01"
+#   day   - Day with letter extension.  1 is "1st"
+#   yy    - Two digit year.  2006 is "06"
+#   yyyy  - Four digit year.  2006 is "2006"
+#   year  - Four digit year.  2006 is "2006"
+
+
+# --------------------------------------------------------------------------
+# 
+# Cut and paste the lines below to change the order in which your files
+# appear on the menu.  Don't worry about adding or removing files, Natural
+# Docs will take care of that.
+# 
+# You can further organize the menu by grouping the entries.  Add a
+# "Group: [name] {" line to start a group, and add a "}" to end it.
+# 
+# You can add text and web links to the menu by adding "Text: [text]" and
+# "Link: [name] ([URL])" lines, respectively.
+# 
+# The formatting and comments are auto-generated, so don't worry about
+# neatness when editing the file.  Natural Docs will clean it up the next
+# time it is run.  When working with groups, just deal with the braces and
+# forget about the indentation and comments.
+# 
+# You can use this file on other computers even if they use different
+# directories.  As long as the command line points to the same source files,
+# Natural Docs will be able to correct the locations automatically.
+# 
+# --------------------------------------------------------------------------
+
+
+Group: Core  {
+
+   File: CApplication  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/core/Application.h)
+   File: CEventHandler  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/core/EventHandler.h)
+   File: CMessageHandler  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/core/MessageHandler.h)
+   }  # Group: Core
+
+Group: My Client  {
+
+   File: Buildings  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/myclient/buildings.h)
+   File: CTestEventHandler  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/myclient/TestEventHandler.h)
+   File: CTestEventHandlerException  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/myclient/CTestEventHandlerException.h)
+   File: MyCar  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/myclient/mycar.h)
+   File: MyCircuit  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/myclient/mycircuit.h)
+   File: Road  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/myclient/road.h)
+   File: Skybox  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/myclient/skybox.h)
+   File: Terrain  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/myclient/terrain.h)
+   File: Tree  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/myclient/tree.h)
+   }  # Group: My Client
+
+Group: Utilities  {
+
+   File: CTargaImage  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/utilities/tga.h)
+   File: LogFile  (/home/indaco/NetBeansProjects/ComputerGraphics/envyMyCar/VCG_Client/sources/utilities/LogFile.h)
+   }  # Group: Utilities
+
+Group: Index  {
+
+   Index: Everything
+   Class Index: Classes
+   Type Index: Types
+   Function Index: Functions
+   }  # Group: Index
+
+
+
+##### Do not change or remove these lines. #####
+Data: 1(D3333RuEG38\fp9u3yGtxGp\6gHulG9t630uEINtGHWHpIR8963G\/QPQ0pH3O0WV0o8G\t36uNH9G6)
+Data: 1(h3333RuEG38\fp9u3yGtxGp\6gHulG9t630uEINtGHWHpIR8963G\/QPQ0pH3O0WV0o8G\t36uNH9G63Nt8o8t8G6)
+Data: 1(T3333RuEG38\fp9u3yGtxGp\6gHulG9t630uEINtGHWHpIR8963G\/QPQ0pH3O0WV0o8G\t36uNH9G639uHG)
+Data: 1(-3333RuEG38\fp9u3yGtxGp\6gHulG9t630uEINtGHWHpIR8963G\/QPQ0pH3O0WV0o8G\t36uNH9G63EQ9o8G\t)
