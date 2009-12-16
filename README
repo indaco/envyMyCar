@@ -1,13 +1,13 @@
 # EnvyMyCar VCG_Client #
 A client for the Computer Graphics '08 Class project at University of Siena. 
-It is based on VCG by "Visual Computing Lab":http://vcg.isti.cnr.it/joomla/index.php -  A open source portable C++ templated library for manipulation, processing and displaying with OpenGL of triangle and tetrahedral meshes.
+It is based on VCG by "Visual Computing Lab":http://vcg.isti.cnr.it/joomla/index.php -  A open source portable C++ templated library for manipulation, processing and displaying with OpenGL of triangle and tetrahedral meshes end "eNVyMyCar":http://vcg.isti.cnr.it/Publications/2008/GC08/
 
 ## Author ##
 Mirco Veltri - mircoveltri[at]gmail.com
 
 ## Version ##
- v. 0.3b
+v. 0.3b
 
 ## Last Update ##
-05 - '08
+05/'08
 
