@@ -19,29 +19,7 @@
  * for more details.                                                         *
  *                                                                           *
  ****************************************************************************/
-/****************************************************************************
- * History
- *
- * $Log: main_clt.cpp,v $
- * Revision 1.4  2007/07/04 13:28:30  ganovelli
- * halfway  version for thumbnails
- *
- * Revision 1.3  2007/04/09 23:08:41  ganovelli
- * added standalone mode
- *
- * Revision 1.2  2007/03/29 21:52:44  ganovelli
- * added builder of circuits.
- *
- * Revision 1.1  2007/03/11 15:10:17  ganovelli
- * first working draft
- *
- * Revision 1.2  2007/03/11 15:08:51  ganovelli
- *** empty log message ***
- *
- * Revision 1.1  2007/03/10 16:43:35  ganovelli
- * first working draft
- *
- ****************************************************************************/
+
 #include <iostream>
 using std::cerr;
 using std::endl;
